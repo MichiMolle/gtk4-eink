@@ -1,0 +1,98 @@
+/*
+Sie können hier beliebige von GTK erkannte CSS-Regeln eingeben.
+Sie können vorübergehend dieses benutzerdefinierte CSS deaktivieren, indem Sie oben auf den Knopf »Pause« klicken.
+
+Änderungen werden sofort und global für die gesamte Anwendung umgesetzt.
+*/
+window{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
+scrolledwindow{
+	background-color: #ffffff;
+}
+
+headerbar{
+	background-color: #ffffff;
+	border-bottom: 1px solid #000000;
+}
+
+headerbar  separator{
+	background-color: rgba(0,0,0,0);
+}
+
+separator{
+	background-color: #000000;
+}
+
+searchbar{
+	background-color: #ffffff;
+}
+
+switch{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+switch slider{
+	background-color: #000000;
+	box-shadow: none;
+}
+
+switch:checked{
+	background-color: #000000;
+}
+
+switch:checked slider{
+	background-color: #ffffff;
+}
+
+popover contents{
+	box-shadow: none;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.boxed-list{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
+.boxed-list row{
+	border-bottom: 1px solid #000000;
+}
+
+.boxed-list row:last-child{
+	border-bottom: none;
+}
+
+.navigation-sidebar{
+	background-color: #ffffff;
+	color: #000000;
+	border-image-width: 2;
+}
+
+.navigation-sidebar * list{
+	border: none!important;
+}
+
+.view{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.horizontal{
+	color: #000000;
+}
+
+.search{
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	color: #000000;
+}
+
+.image-button{
+	background-color: #ffffff;
+}
+
