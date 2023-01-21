@@ -1,9 +1,3 @@
-/*
-Sie können hier beliebige von GTK erkannte CSS-Regeln eingeben.
-Sie können vorübergehend dieses benutzerdefinierte CSS deaktivieren, indem Sie oben auf den Knopf »Pause« klicken.
-
-Änderungen werden sofort und global für die gesamte Anwendung umgesetzt.
-*/
 window{
 	box-shadow: none;
 	border: 2px solid #000000;
@@ -54,12 +48,33 @@ popover contents{
 	color: #000000;
 }
 
-.boxed-list{
+row{
+	border: 1px solid #ffffff;
+}
+
+row:hover{
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid #000000;
+}
+
+row:selected{
+	border: 1px solid #000000;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+row:selected *{
+	color: #ffffff;
+}
+
+.boxed-list, .card{
 	box-shadow: none;
 	border: 2px solid #000000;
 }
 
-.boxed-list row{
+.boxed-list row, .boxed-list row:hover{
+	border: none;
 	border-bottom: 1px solid #000000;
 }
 
@@ -95,4 +110,5 @@ popover contents{
 .image-button{
 	background-color: #ffffff;
 }
+
 
