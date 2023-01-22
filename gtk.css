@@ -84,6 +84,15 @@ scale slider{
 	border: 2px solid #000000;
 }
 
+levelbar .filled{
+	background-color: #000000;
+	border: 2px solid #000000;
+}
+levelbar .empty{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
 .boxed-list, .card{
 	box-shadow: none;
 	border: 2px solid #000000;
@@ -131,6 +140,11 @@ scale slider{
 	background-color: #ffffff;
 	border: 2px solid #000000;
 	min-height: 20px;
+}
+
+.text-button:hover{
+	background-color: #000000;
+	color: #ffffff;
 }
 
 .suggested-action{
