@@ -32,6 +32,8 @@ switch{
 switch slider{
 	background-color: #000000;
 	box-shadow: none;
+	min-width: 18px;
+	min-height: 18px;
 }
 
 switch:checked{
@@ -110,5 +112,3 @@ row:selected *{
 .image-button{
 	background-color: #ffffff;
 }
-
-
