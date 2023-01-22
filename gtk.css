@@ -70,6 +70,20 @@ row:selected *{
 	color: #ffffff;
 }
 
+scale trough{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+scale highlight{
+	background-color: #000000;
+}
+
+scale slider{
+	box-shadow: none;
+	border: 2px solid #000000;
+}
+
 .boxed-list, .card{
 	box-shadow: none;
 	border: 2px solid #000000;
