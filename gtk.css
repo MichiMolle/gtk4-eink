@@ -46,8 +46,13 @@ switch:checked slider{
 
 popover contents{
 	box-shadow: none;
-	border: 1px solid #000000;
+	border: 2px solid #000000;
 	color: #000000;
+}
+
+popover contents list{
+	box-shadow: none;
+	border: 2px solid #000000;
 }
 
 row{
@@ -102,6 +107,10 @@ radio{
 
 radio:checked{
 	background-color: #000000;
+}
+
+combobox * button {
+	background-color: #ffffff;
 }
 
 .boxed-list, .card{
