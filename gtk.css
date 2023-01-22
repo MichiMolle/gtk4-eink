@@ -130,13 +130,9 @@ scale slider{
 .text-button{
 	background-color: #ffffff;
 	border: 2px solid #000000;
+	min-height: 20px;
 }
 
 .suggested-action{
 	background-color: #000000;
-}
-
-/* Nautilus */
-#NautilusPathBar{
-	border: 2px solid #000000;
 }
