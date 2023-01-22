@@ -173,3 +173,13 @@ windowcontrols button:hover image{
 	background-color: #000000;
 	color: #ffffff;
 }
+
+/* Nautilus */
+#NautilusPathBar{
+	border: 2px solid #000000;
+}
+
+#NautilusPathBar box{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
