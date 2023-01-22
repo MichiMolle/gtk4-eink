@@ -126,3 +126,17 @@ scale slider{
 .image-button{
 	background-color: #ffffff;
 }
+
+.text-button{
+	background-color: #ffffff;
+	border: 2px solid #000000;
+}
+
+.suggested-action{
+	background-color: #000000;
+}
+
+/* Nautilus */
+#NautilusPathBar{
+	border: 2px solid #000000;
+}
