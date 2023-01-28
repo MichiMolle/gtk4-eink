@@ -1,116 +1,116 @@
-window {
+window{
   box-shadow: none;
   border: 2px solid #000000;
+
 }
 
-.maximized {
+.maximized{
   border: none;
 }
 
-scrolledwindow {
+scrolledwindow{
   background-color: #ffffff;
 }
 
-headerbar {
+headerbar{
   background-color: #ffffff;
   border-bottom: 1px solid #000000;
 }
 
-headerbar separator {
-  background-color: rgba(0, 0, 0, 0);
+headerbar  separator{
+  background-color: rgba(0,0,0,0);
 }
 
-separator {
+separator{
   background-color: #000000;
 }
 
-searchbar {
+searchbar{
   background-color: #ffffff;
 }
 
-switch {
+switch{
   background-color: #ffffff;
   border: 2px solid #000000;
 }
 
-switch slider {
+switch slider{
   background-color: #000000;
   box-shadow: none;
   min-width: 18px;
   min-height: 18px;
 }
 
-switch:checked {
+switch:checked{
   background-color: #000000;
 }
 
-switch:checked slider {
+switch:checked slider{
   background-color: #ffffff;
 }
 
-popover contents {
+popover contents{
   box-shadow: none;
   border: 2px solid #000000;
   color: #000000;
 }
 
-popover contents list {
+popover contents list{
   box-shadow: none;
   border: 2px solid #000000;
 }
 
-row {
+row{
   border: 1px solid #ffffff;
 }
 
-row:hover {
+row:hover{
   background-color: #ffffff;
   color: #000000;
   border: 1px solid #000000;
 }
 
-row:selected {
+row:selected{
   border: 1px solid #000000;
   background-color: #000000;
   color: #ffffff;
 }
 
-row:selected * {
+row:selected *{
   color: #ffffff;
 }
 
-scale trough {
+scale trough{
   background-color: #ffffff;
   border: 2px solid #000000;
 }
 
-scale highlight {
+scale highlight{
   background-color: #000000;
 }
 
-scale slider {
+scale slider{
   box-shadow: none;
   border: 2px solid #000000;
 }
 
-levelbar .filled {
+levelbar .filled{
   background-color: #000000;
   border: 2px solid #000000;
 }
-
-levelbar .empty {
+levelbar .empty{
   background-color: #ffffff;
   border: 2px solid #000000;
 }
 
-radio {
+radio{
   box-shadow: none;
   border: 2px solid #000000;
   min-height: 10px;
   min-width: 10px;
 }
 
-radio:checked {
+radio:checked{
   background-color: #000000;
 }
 
@@ -118,118 +118,110 @@ combobox * button {
   background-color: #ffffff;
 }
 
-.boxed-list, .card {
+.boxed-list, .card{
   box-shadow: none;
   border: 2px solid #000000;
 }
 
-.boxed-list row, .boxed-list row:hover {
+.boxed-list row, .boxed-list row:hover{
   border: none;
   border-bottom: 1px solid #000000;
 }
 
-.boxed-list row:last-child {
+.boxed-list row:last-child{
   border-bottom: none;
 }
 
-windowcontrols button image {
+windowcontrols button image{
   background-color: #ffffff;
   border: 2px solid #000000;
 }
 
-windowcontrols button:hover image {
+windowcontrols button:hover image{
   background-color: #000000;
   color: #ffffff;
 }
 
-.navigation-sidebar {
+.navigation-sidebar{
   background-color: #ffffff;
   color: #000000;
   border-image-width: 2;
 }
 
-.navigation-sidebar * list {
-  border: none !important;
+.navigation-sidebar * list{
+  border: none!important;
 }
 
-.view {
+.view{
   background-color: #ffffff;
   color: #000000;
 }
 
-.horizontal {
+.horizontal{
   color: #000000;
 }
 
-.search {
+.search{
   background-color: #ffffff;
   border: 1px solid #000000;
   color: #000000;
 }
 
-.image-button {
+.image-button{
   background-color: #ffffff;
 }
 
-.text-button {
+.text-button{
   background-color: #ffffff;
   color: #000000;
   border: 2px solid #000000;
   min-height: 20px;
 }
 
-.text-button:hover {
+.text-button:hover{
   background-color: #000000;
   color: #ffffff;
 }
 
-.suggested-action {
+.suggested-action{
   background-color: #000000;
   color: #ffffff;
 }
 
-.messagedialog .response-area button, .dialog-action-area button {
+.messagedialog .response-area button, .dialog-action-area button{
   border: none;
   border-top: 2px solid #000000;
   border-right: 2px solid #000000;
 }
 
-.messagedialog .response-area button:last-child, .dialog-action-area button:last-child {
+.messagedialog .response-area button:last-child, .dialog-action-area button:last-child{
   border: none;
   border-top: 2px solid #000000;
 }
 
-.linked button {
+.linked button{
   border: 2px solid #000000;
   border-right: none;
 }
 
-.linked button:checked {
+.linked button:checked{
   background-color: #000000;
   color: #ffffff;
 }
 
-.linked button:last-child {
+.linked button:last-child{
   border-right: 2px solid #000000;
 }
 
-.linked.vertical button {
+.linked.vertical button{
   border: 2px solid #000000;
   border-bottom: none;
 }
 
-.linked button:last-child {
+.linked button:last-child{
   border-bottom: 2px solid #000000;
 }
 
 /*app specific styles*/
-#NautilusPathBar scrolledwindow {
-  border: 2px solid #000000;
-  border-right: none;
-}
+@import 'apps';
 
-#NautilusPathBar scrolledwindow button {
-  border: none;
-}
-
-/*# sourceMappingURL=gtk.css.map */
